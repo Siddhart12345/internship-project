@@ -3,10 +3,10 @@ import React from 'react'
 
 const JsBasics: React.FC = () => {
     const abc=230;
-     const bac=abc ===20?abc:30;
+     const bac=abc ===230?abc:30;
     console.log(bac);
     console.log("abc:",abc);
-    if(abc===20){
+    if(abc===230){
         console.log("hello world");
     }
     
@@ -15,7 +15,7 @@ const JsBasics: React.FC = () => {
             <IonContent>
         <div>abc: {abc}</div>
         {bac===abc && <div>bac: {bac}</div>}
-            <div>bac: {abc == 20 ? "hi" : "by"}</div>
+            <div>bac: {abc == 230 ? "hi" : "by"}</div>
         
         </IonContent>
         </IonPage>
